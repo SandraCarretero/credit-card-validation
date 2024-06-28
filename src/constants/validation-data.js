@@ -22,7 +22,7 @@ const messages = {
 };
 
 const patterns = {
-	onlyLetters: /^[a-zñáéíóú\s]+$/i,
+	onlyLetters: /^[a-zA-ZñÑ]+$/,
 	onlyNumberCard: /^\d{16}$/,
 	onlyMonth: /^(1[0-2]|0?[1-9])$/,
 	onlyYear: /^\d{2}$/,
